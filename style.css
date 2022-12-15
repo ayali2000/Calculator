@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contn20{
+    transition: all 1s;
+}
+
+.cont{
+    width: 300px;
+    height: 500px;
+    -webkit-box-shadow:0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    border: solid;
+    border-color: orange;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #454e56;
+    position: relative;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 50px;
+    -webkit-box-shadow:0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    border: solid;
+    border-color: orange;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: white;
+    z-index: 2;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.inputs::-webkit-scrollbar{
+    height: 3px;
+}
+
+.inputs::-webkit-scrollbar-track{
+    background-color: red;
+}
+
+.inputs::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+
+.blur{
+    position: absolute;
+    background-color: yellow;
+    filter: blur(70px);
+    width: 220px;
+    height: 220px;
+    top: 7rem;
+    border-radius: 50%;
+}
+
+.blur-1{
+    position: absolute;
+    background-color: green;
+    filter: blur(70px);
+    width: 220px;
+    height: 220px;
+    top: 15rem;
+    border-radius: 50%;
+}
+
+.blur-2{
+    position: absolute;
+    background-color: red;
+    filter: blur(70px);
+    width: 150px;
+    height: 150px;
+    top: 5rem;
+    border-radius: 50%;
+}
+
+.keys{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.setsContainer{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nums{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-box-shadow:0px 0px 16px -5px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    z-index: 2;
+}
+
+.nums:hover{
+    background-color: white;
+    color: black;
+}
+
+.botContainer{
+    display: flex;
+}
+
+.zero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    -webkit-box-shadow:0px 0px 16px -5px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.68);
+    margin-bottom: 10px;
+    margin-right: 20px;
+    cursor: pointer;  
+    color: white;
+    z-index: 2;
+}
+
+.zero:hover{
+    background-color: white;
+    color: black;
+}
+
+.operators{
+    margin-right: 10px;
+    z-index: 2;
+}
+
+.ops{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-box-shadow:0px 0px 16px -5px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.Arafat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80px;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    font-size: 50px;
+    z-index: 2;
+}
